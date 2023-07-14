@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
-* Description main : printing a srting
-* Return : 0 when success and 1 when failed
+*  main - entry main function
+*  return : always 0 (success)
 */
 int main(void)
 {
