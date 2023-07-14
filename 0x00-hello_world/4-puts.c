@@ -1,7 +1,8 @@
 #include<stdio.h>
 /**
-* program that prints exactlyProgramming is like building a multilingual puzzle, followed by a new line using put function
-* Return to 0 when success
+* program that print a string
+* Entry point program for main with put funtion
+* Return : 0 when success
 */
 int main(void)
 {
