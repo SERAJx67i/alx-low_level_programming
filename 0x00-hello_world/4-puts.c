@@ -1,8 +1,7 @@
 #include<stdio.h>
 /**
-* program that print a string
-* Entry point program for main with put funtion
-* Return : 0 when success
+* Description main : printing a srting
+* Return : 0 when success and 1 when failed
 */
 int main(void)
 {
