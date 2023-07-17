@@ -6,14 +6,18 @@
 int main(void)
 {
 	char a = 64;
-	char aa = 96;
+	char c = 96;
 	char b = '\n';
 while (a < 90)
+{
 	a++;
 		putchar(a);
-while (aa < 122)
-	aa++;
-		putchar(aa);
+}
+while (c < 122)
+{
+	c++;
+		putchar(c);
 		putchar(b);
+}
 	return (0);
 }
