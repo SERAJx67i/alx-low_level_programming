@@ -6,8 +6,13 @@
  */
 int main(void)
 {
-	char * wow ="abcdefghijklmnopqrstuvwxyz" 
-		puts(wow);
-
-	 return (0);
+	char a = 96;
+	char b = '\n';
+while (a < 122)
+{
+	a++;
+	putchar(a);
+}
+	putchar(b);
+	return (0);
 }
