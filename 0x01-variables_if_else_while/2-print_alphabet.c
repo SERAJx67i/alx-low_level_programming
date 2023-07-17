@@ -6,12 +6,8 @@
  */
 int main(void)
 {
-	char ALP;
-	
-		if (ALP = 'a', ALP <= 'z', ALP++)
-			{
-			putchar(ALP);
-			}
+	char * wow ="abcdefghijklmnopqrstuvwxyz" 
+		puts(wow);
 
 	 return (0);
 }
