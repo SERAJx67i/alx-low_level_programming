@@ -9,10 +9,14 @@ int main(void)
 	int b = 10;
 	int c = 44;
 	int s = 32;
-while (a < 57)
+while (a <= 56)
 {
 	a++;
 	putchar(a);
+if (a == 57)
+	{
+		continue;
+	}
 	putchar(c);
 	putchar(s);
 }
