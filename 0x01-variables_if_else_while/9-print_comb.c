@@ -13,7 +13,7 @@ while (a <= 56)
 {
 	a++;
 	putchar(a);
-if (a == 57)
+	if (a == 57)
 	{
 		continue;
 	}
