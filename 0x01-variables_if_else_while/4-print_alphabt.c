@@ -5,18 +5,18 @@
  */
 int main(void)
 {
-	char a = 96;
-	char b = '\n';
-	char c = 100;
-while (a < 101)
+	int n = 97;
+while (n <= 122)	
 {
-	a++;
-		putchar(a);
+	if (n == 101 || n == 111)
+		{
+			n++;
+			continue;
+		}
+	putchar(n);
+	n++;
+
 }
-while (c > 112)
-	c++;
-{
-	putchar(c);
-}
+	putchar('\n');
 	return (0);
 }
