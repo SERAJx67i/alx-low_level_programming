@@ -10,7 +10,6 @@ int main(void)
 	int n;
 	int *p = &n;
 	*p = 98;
-		scanf("n");
 		printf("%d\n", n);
 	return (0);
 }
