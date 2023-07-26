@@ -3,7 +3,6 @@
  * main - entry point
  * Return: 0 IF Success.
  */
-void print_alphabet(void);
 int main(void)
 {
 	int a = 96;
