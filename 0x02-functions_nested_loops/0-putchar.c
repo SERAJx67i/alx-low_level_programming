@@ -1,12 +1,10 @@
-#include <main.h>
-#include "alx-low_level_programming/0x02-functions_nested_loops/main.h"
-#include <unistd.h>
+#include "main.h"
 /**
  * main - entry point
- * Return: always 0 (Success)
+ * Return: always 0 Success
  */
-int c(char *_putchar)
+int main(void)
 {
-	
+	printf("_putchar\n");
 	return (0);
 }
