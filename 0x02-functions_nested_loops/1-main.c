@@ -1,17 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * main - entry point
- * Return: 0 IF Success.
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-void print_alphabet(void)
+int main(void)
 {
-        int a = 96;
-        int b = 10;
-        while (a < 122)
-        {
-                a++;
-                putchar(a);
-        }
-                putchar(b);
+	print_alphabet();
+	return (0);
 }
