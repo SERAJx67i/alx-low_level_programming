@@ -6,20 +6,15 @@
  */
 int print_sign(int n)
 {
-	char a = '+';
-	int b = 1;
-	char c = '-';
-	int d = 00;	
 	if (n > 0)
 	{
-		return (a + b);
+		return (+1);
 	}
 	else if (n == 0)
-	{
-		return (d);
-	}
+		printf("00");
 	else
 	{
-		return (c + b);
+		return (1);
 	}
+	return (n);
 }
