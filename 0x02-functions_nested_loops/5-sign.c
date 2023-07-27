@@ -8,16 +8,15 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		printf("+1");
-		return(1);
+		printf("+1\n");
 	}
 	else if (n == 0)
 	{
-		printf("00");
+		printf("00\n");
 	}
 	else
 	{
-		printf("-1");
+		printf("-1\n");
 	}
-	return (0);
+	return (n);
 }
