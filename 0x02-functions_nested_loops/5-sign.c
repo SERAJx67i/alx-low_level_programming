@@ -6,9 +6,11 @@
  */
 int print_sign(int n)
 {
+	int result = +1;
 	if (n > 0)
 	{
-		return (+1);
+
+		return (result);
 	}
 	else if (n == 0)
 	{
