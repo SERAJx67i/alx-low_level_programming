@@ -6,18 +6,20 @@
  */
 int print_sign(int n)
 {
-	int result = "+1";
+	char myarray[2] = {"+1"};
+	char resu[2] = {"00"};
+	char re[2] = {"-1"};
 	if (n > 0)
 	{
 
-		return (result);
+		return (myarray[1]);
 	}
 	else if (n == 0)
 	{
-		return (0000);
+		return (resu[1]);
 	}
 	else
 	{
-		return (-1);
+		return (re[1]);
 	}
 }
