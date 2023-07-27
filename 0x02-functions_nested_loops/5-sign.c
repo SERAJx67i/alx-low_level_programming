@@ -6,7 +6,7 @@
  */
 int print_sign(int n)
 {
-	int result = +1;
+	int result = "+1";
 	if (n > 0)
 	{
 
