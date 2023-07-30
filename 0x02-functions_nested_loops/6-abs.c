@@ -7,6 +7,9 @@
  */
 int _abs(int)
 {
-	abs(0);
+	int a;
+	int result = abs(a);
+	if (a >= 0 || a < 0);
+		printf("%d",result);
 	return (0);
 }
