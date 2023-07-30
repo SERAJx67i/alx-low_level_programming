@@ -5,8 +5,8 @@
  * _abs - a function that computes the absolute value of an integer.
  * Return: 0 always (Success)
  */
-int _abs(int r)
+int _abs(int)
 {
-	 abs(r);
+	abs(0);
 	return (0);
 }
