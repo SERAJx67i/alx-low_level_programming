@@ -10,7 +10,5 @@ int _abs(int);
 int _abs(int a)
 {
 	int result = abs(a) ;
-		printf("%d",result);
-		fflush(stdout);
-		return (0);
+		return (result);
 }
