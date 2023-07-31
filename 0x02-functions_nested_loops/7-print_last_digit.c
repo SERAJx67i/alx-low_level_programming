@@ -9,7 +9,7 @@ int print_last_digit(int);
 int print_last_digit(int n)
 {
 	int result = (n % 10);
-		printf("%d%d", result, result);
+		printf("%d", result);
 		fflush(stdout);
 		return (result);
 }
