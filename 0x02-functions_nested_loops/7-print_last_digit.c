@@ -8,8 +8,10 @@
 int print_last_digit(int);
 int print_last_digit(int n)
 {
-	int result;
-	result = (n % 10);
+	int result = (n % 10);
+	if (n % 10 > 0 || n % 10 <= 0)
+	{
 	printf("%d", result);
+	}
 	return (result);
 }
