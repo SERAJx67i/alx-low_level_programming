@@ -10,5 +10,7 @@ int print_last_digit(int);
 int print_last_digit(int n)
 {
 	int result = (abs(n % 10));
+		printf("%d", result);
+		fflush(stdout);
 		return (result);
 }
