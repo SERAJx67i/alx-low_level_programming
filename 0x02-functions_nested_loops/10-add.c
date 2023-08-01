@@ -10,7 +10,6 @@ int add(int x, int y)
 {
 	int result;
 	result = x + y;
-		printf("%d", result);
 		return (result);
 
 }
