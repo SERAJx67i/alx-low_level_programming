@@ -2,11 +2,11 @@
 /**
 * main - causes
 * an
-* infinite
+* infi
+* n
+* i
+* te
 * loop
-*
-*
-*
 *
 * Return: 0
 */
