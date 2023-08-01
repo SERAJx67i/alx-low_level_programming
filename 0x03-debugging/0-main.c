@@ -3,7 +3,7 @@
 * main - tests function
 * that prints
 * if integer is positive
-* or 
+* or
 * negative
 * Return: 0
 */
