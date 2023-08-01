@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
-* main - causes
-* an
-* infi
-* n
-* i
-* te
-* loop.
+* main - causes an infinite loop
+*
+*
+*
+*
+*
+*
 *
 * Return: 0
 */
