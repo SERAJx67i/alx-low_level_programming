@@ -29,7 +29,7 @@ void jack_bauer(void)
 				{
 					exit(EXIT_FAILURE);
 				}
-				printf ("%02d:%02d\n", a, b);
+				printf("%02d:%02d\n", a, b);
 			}
 		}
 }
