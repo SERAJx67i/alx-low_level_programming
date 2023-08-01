@@ -25,11 +25,11 @@ void jack_bauer(void)
 				{
 					a = 0;
 				}
-				while (a == 0 && b == 0 )
+				while (a == 0 && b == 0)
 				{
-					exit (EXIT_FAILURE);
+					exit(EXIT_FAILURE);
 				}
-				printf ("%02d:%02d\n",a ,b);
+				printf ("%02d:%02d\n", a, b);
 			}
 		}
 }
