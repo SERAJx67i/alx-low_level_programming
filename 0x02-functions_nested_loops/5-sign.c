@@ -10,16 +10,18 @@ int print_sign(int n)
 	{
 		printf("+");
 		return (1);
+		fflush(stdout);
 	}
 	else if (n == 0)
 	{
 		printf("0");
 		return (0);
+		fflush(stdout);
 	}
 	else
 	{
 		printf("-");
 		return (1);
+		fflush(stdout);
 	}
-	fflush(stdout);
 }
