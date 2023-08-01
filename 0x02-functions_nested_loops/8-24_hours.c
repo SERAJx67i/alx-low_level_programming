@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * jack_bauer - a function hat prints every minute
  *  of the day of Jack Bauer, starting from 00:00 to 23:59.
@@ -9,6 +10,7 @@ void jack_bauer(void)
 {
 	int a = 0;
 	int b = 0;
+		printf("00:00\n");
 		while (a <= 24)
 		{
 			while (b <= 60)
@@ -19,18 +21,17 @@ void jack_bauer(void)
 					a++;
 					b = 0;
 				}
-				if (a > 23)
+				while  (a == 24)
 				{
 					a = 0;
 				}
-			
-			}
-			printf ("%d:%d\n",a ,b);	
-				if (a == 10 && b == 0)
+				while (a == 0 && b == 0 )
 				{
-					break;
+					exit (EXIT_FAILURE);
 				}
+				printf ("%02d:%02d\n",a ,b);
+			}
 		}
-
 }
+
 
