@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-* main -
-* causes
+* main - causes
 * an
 * infinite
 * loop
+*
 *
 *
 *
