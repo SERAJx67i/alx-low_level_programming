@@ -6,8 +6,8 @@
 * n
 * i
 * te
-* loop
-*
+* lo
+* op
 * Return: 0
 */
 int main(void)
