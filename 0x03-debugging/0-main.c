@@ -2,9 +2,9 @@
 /**
 * main - tests function
 * that prints
-* if integer is positive
-* or
-* negative.
+* if integer is positive or negative.
+* @int: an inetger
+* @int: an integer
 * Return: 0
 */
 int main(void)
