@@ -11,9 +11,10 @@ void print_to_98(int n)
 	{
 		if (n == 98)
 		{
+			printf("98");
 			exit(EXIT_FAILURE);
 		}
-		n++;
 		printf("%d, ", n);
+		n++;
 	}
 }
