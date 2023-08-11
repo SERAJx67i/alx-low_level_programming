@@ -14,6 +14,6 @@ void print_to_98(int n)
 			exit(EXIT_FAILURE);
 		}
 		n++;
-		printf("%d, \n", n);
+		printf("%d, ", n);
 	}
 }
