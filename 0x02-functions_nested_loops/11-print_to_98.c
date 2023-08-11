@@ -4,6 +4,7 @@
  * print_to_98 - a function that prints all
  * natural numbers from n to 98, followed by a new line.
  * Retrun: no value.
+ * @n: an integer
  */
 void print_to_98(int n)
 {
@@ -11,7 +12,7 @@ void print_to_98(int n)
 	{
 		if (n == 98)
 		{
-			printf("98");
+			printf("98\n");
 			exit(EXIT_FAILURE);
 		}
 		printf("%d, ", n);
