@@ -13,8 +13,7 @@ void print_to_98(int n)
 		{
 			exit(EXIT_FAILURE);
 		}
-		printf("%d, \n", n);
 		n++;
+		printf("%d, \n", n);
 	}
-		
 }
