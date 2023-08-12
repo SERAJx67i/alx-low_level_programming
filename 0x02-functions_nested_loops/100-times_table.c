@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * print_times_table - a function that 
  * prints the n times table, starting with 0.
@@ -16,6 +17,10 @@ void print_times_table(int n)
 		if (a == n * 10)
 		{
 			printf("\n");
+		}
+		else if (n > 15)
+		{
+			exit(EXIT_FAILURE);
 		}
 	}
 }
