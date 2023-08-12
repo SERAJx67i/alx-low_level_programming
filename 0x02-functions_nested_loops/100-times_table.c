@@ -10,19 +10,17 @@ void print_times_table(int n)
 {
 		int a = 0;
 		int b = 0;
-	while (a <= 10 && b <= 10)
-	{
-		if (n <= 15 && n != 0)
-		{
+			if (n <= 15 && n != 0)
+			while (a <= n && b < 11)
+			{
 			printf("%d, ", a * b);
 			b++;
-			if (b == 10 )
-			{
+				if (b > 10)
+				{
 				a++;
-				printf("\n");
+				b = 0;
+				}
 			}
-
-		}
 		else if (n > 15 || n < 0)
 		{
 			exit(EXIT_FAILURE);
@@ -32,5 +30,4 @@ void print_times_table(int n)
 			printf("0\n");
 			exit(EXIT_FAILURE);
 		}
-	}
 }
