@@ -13,13 +13,13 @@ void print_times_table(int n)
 	if (n <= 15 && n != 0)
 			while (a <= n && b < 11)
 			{
-				if (b <= 10)
+				if (b < 10)
 				{
 				printf("%d,  ", a * b);
-				if (b == 10)
+				}
+				else if (b == 10)
 				{
 					printf("%d", a * b );
-				}
 				}
 				b++;
 			if (b > 10)
