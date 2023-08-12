@@ -14,6 +14,11 @@ void print_times_table(int n)
 	{
 		if (n <= 15)
 		{
+			if (n == 0)
+			{
+				printf("0\n");
+				exit(EXIT_FAILURE);
+			}
 		printf("%d, ",a * b);
 		a++;
 		b++;
