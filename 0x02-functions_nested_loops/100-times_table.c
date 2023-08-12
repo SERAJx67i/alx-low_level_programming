@@ -8,8 +8,10 @@
  */
 void print_times_table(int n)
 {
-	int a = 0;
-	int b = 0;
+	int a;
+	int b;
+	a = 0;
+	b = 0;
 	while (a <= 10 && b <= n)
 	{
 		if (n <= 15)
@@ -19,7 +21,7 @@ void print_times_table(int n)
 				printf("0\n");
 				exit(EXIT_FAILURE);
 			}
-		printf("%d, ",a * b);
+		printf("%d, ", a * b);
 		a++;
 		b++;
 		}
