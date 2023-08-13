@@ -2,8 +2,8 @@
 #include <ctype.h>
 /**
  * _isupper - a function that checks for uppercase character.
- * Retrun: 1 if c is uppercase, or 0 if otherwise.
  * @c: a character.
+ * Return: 1 if c is uppercase, or 0 if otherwise.
  */
 int _isupper(int c)
 {
