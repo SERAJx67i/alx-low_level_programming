@@ -10,7 +10,7 @@ void print_most_numbers(void)
 	char b = 10;
 		while (a <= 57)
 		{
-			if (a == 50 || a == 52)
+			while (a == 50 || a == 52)
 			{
 				continue;
 			}
