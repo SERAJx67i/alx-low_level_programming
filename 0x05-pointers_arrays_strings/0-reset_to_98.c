@@ -9,7 +9,7 @@ void reset_to_98(int *n)
 {
 	int a = 98;
 		n = &a;
-		a = *n;
+		*n = a;
 		printf("%d", *n);
 
 }
