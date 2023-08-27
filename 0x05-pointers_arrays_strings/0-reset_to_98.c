@@ -8,9 +8,8 @@
 void reset_to_98(int *n)
 {
 	int a = 98;
-		if (*n >= 0 || *n < 0)
-		{
-			n = &a;
-			a = *n;
-		}
+		n = &a;
+		a = *n;
+		printf("%d", *n);
+
 }
